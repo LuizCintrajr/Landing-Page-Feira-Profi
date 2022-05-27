@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap'); 
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+ 
+  background: rgb(57,202,230);
+  background: linear-gradient(90deg, rgba(57,202,230,1) 0%, rgba(142,212,226,1) 41%, rgba(187,216,222,1) 100%);
+}
+
+h1{
+  font-size: 50px;
+  font-weight: 700;
+}
+
+p{
+  font-size: 20px;
+}
+
+header{
+  position: relative;
+  width: 100%;
+  height: 913px;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('./imgs/teste1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+
+.title{
+  text-align: center;
+  color: white;
+  margin-right: -500px;
+  height: 240px;
+  width: 650px;
+  margin-top: -200px;
+}
+.title h3{
+  font-size: 80px;
+  margin: 0;
+  transition: 0.10s ease;
+}
+.title h3:hover{
+  font-size: 110px;
+}
+.title p{
+  font-size: 2.7vh;
+}
+nav{
+  width: 100%;
+  height: 62px;
+  background: #57a9ba;
+  position: sticky;
+  top: 0;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+nav li{
+  list-style: none;
+}
+nav a{
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  color:rgb(183, 229, 241) ;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 60px;
+  letter-spacing: 0.05px;
+  transition: 0.5s;
+}
+
+nav a::after{
+  content: '';
+  width: 0;
+  height: 5px;
+  background-color:rgb(255, 255, 255);
+  margin: auto;
+  display: block;
+}
+
+nav a:hover{
+  width: 100%;
+  transition: width 0.2s ease;
+  margin-top: -10px;
+}
+nav a:hover{
+  font-size: -50px;
+}
+
+section{
+  position: absolute;
+}
+
+.sobre{
+  position:relative;
+  height: 500px;
+  width: 100%;
+  padding: 100px 200px;
+  margin: 0;
+  background: rgba(57,202,230,1) 0%, rgba(142,212,226,1) 41%, rgba(187,216,222,1) 100%;
+  align-items: center;
+  justify-content: right;
+}
+.secao1{
+  position: relative;
+  display: flex;
+  margin: 0;
+}
+.sheet{
+  position: relative;
+  width: 350px;
+  padding: 20px 50px 0px 0px;
+  left: -20px;
+}
+.conteudo1{
+  align-self: center;
+  text-align: left;
+}
+
+.areas{
+  position:relative;
+  height: 500px;
+  width: 100%;
+  padding: 100px 100px;
+  margin: 0;
+  background: rgba(57,202,230,1) 0%, rgba(142,212,226,1) 41%, rgba(187,216,222,1) 100%;
+  align-items: center;
+  justify-content: right;
+}
+
+.secao2{
+  position: relative;
+  display: flex;
+  margin: 0;
+}
+
+.sheet2{
+  position: relative;
+  width: 350px;
+  padding: 50px 50px 0px 0px;
+  right: -30px;
+}
+
+.conteudo2{
+  align-self: center;
+  right: 100;
+}
+
+.mercado{
+  position:relative;
+  height: 500px;
+  width: 100%;
+  padding: 100px 100px;
+  margin: 0;
+  background: rgba(57,202,230,1) 0%, rgba(142,212,226,1) 41%, rgba(187,216,222,1) 100%;
+  align-items: center;
+  justify-content: right;
+}
+.secao3{
+  position: relative;
+  display: flex;
+  margin: 0;
+}
+.sheet3{
+  position: relative;
+  width: 350px;
+  padding: 50px 50px 0px 0px;
+  right: -30px;
+}
+.conteudo3{
+  align-self: center;
+  right: 100;
+}
+
+.certi{
+  position:relative;
+  height: 500px;
+  width: 100%;
+  padding: 100px 100px;
+  margin: 0;
+  background: rgba(57,202,230,1) 0%, rgba(142,212,226,1) 41%, rgba(187,216,222,1) 100%;
+  align-items: center;
+  justify-content: right;
+}
+.secao4{
+  position: relative;
+  display: flex;
+  margin: 0;
+}
+.sheet4{
+  position: relative;
+  width: 350px;
+  padding: 50px 50px 0px 0px;
+  right: -30px;
+}
+.conteudo4{
+  align-self: center;
+  right: 100;
+}
+
+.faculdades{
+  position:relative;
+  height: 500px;
+  width: 100%;
+  padding: 100px 100px;
+  margin: 0;
+  background: rgba(57,202,230,1) 0%, rgba(142,212,226,1) 41%, rgba(187,216,222,1) 100%;
+  align-items: center;
+  justify-content: right;
+}
+.secao5{
+  position: relative;
+  display: flex;
+  margin: 0;
+}
+.sheet5{
+  position: relative;
+  width: 350px;
+  padding: 50px 50px 0px 0px;
+  right: -30px;
+}
+.conteudo5{
+  align-self: center;
+  right: 100;
+}
+
+.entrevista{
+  position:relative;
+  height: 500px;
+  width: 100%;
+  padding: 100px 100px;
+  margin: 0;
+  background: rgba(57,202,230,1) 0%, rgba(142,212,226,1) 41%, rgba(187,216,222,1) 100%;
+  align-items: center;
+  justify-content: right;
+}
+.secao6{
+  position: relative;
+  display: flex;
+  margin: 0;
+}
+.sheet6{
+  position: relative;
+  width: 350px;
+  padding: 50px 50px 0px 0px;
+  right: -30px;
+}
+.conteudo6{
+  align-self: center;
+  right: 100;
+}
+
